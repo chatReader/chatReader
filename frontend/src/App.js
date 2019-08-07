@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import DangerButton from './Chat';
+import Chat from './Components/Chat';
 
 function App() {
   return (
     <div className="App">
-      <DangerButton />
+      <Chat />
     </div>
   );
 }
