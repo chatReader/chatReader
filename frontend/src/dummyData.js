@@ -40,6 +40,6 @@ const books = [
         image: PowerofHabit, 
     },
 
-];
+]
 
 export default books;
