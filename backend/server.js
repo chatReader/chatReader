@@ -1,14 +1,12 @@
-const express = require('express')
+const express = require("express");
 
-const app = express()
+const app = express();
 
-app.get('/', (req,res) => {
-  res.send('API RUNNING!!!')
-  res.status(200)
-})
+app.get("/", (req, res) => {
+  res.send("API RUNNING!!!");
+  res.status(200);
+});
 
-const PORT = process.env.PORT || 5500
-
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`)
-})
+app.listen((PORT = process.env.PORT || 5500), () => {
+  console.log(`Server running on port ${PORT}`);
+});
