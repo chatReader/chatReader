@@ -122,8 +122,6 @@ app.get('/webhook', (req, res) => {
   }
 })
 
-const PORT = process.env.PORT || 5500
-
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`)
-})
+app.listen((PORT = process.env.PORT || 5500), () => {
+  console.log(`Server running on port ${PORT}`);
+});
