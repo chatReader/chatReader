@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 // import axios from 'axios';
 
 class Chat extends Component {
-  constructor () {
+  constructor() {
     super();
     this.state = {
       message: {
