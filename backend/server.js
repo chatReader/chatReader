@@ -122,8 +122,10 @@ app.get('/webhook', (req, res) => {
   }
 })
 
-const PORT = process.env.PORT || 5500
-
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`)
+app.get('/', (req, res) => {
+  res.send('API RUNNING!!!')
+  res.status(200)
 })
+
+const PORT = process.env.PORT || 5500
+app.listen(PORT, () => console.log(`Webhook is listening on ${PORT}`))
