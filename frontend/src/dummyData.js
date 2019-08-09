@@ -40,6 +40,20 @@ const books = [
         image: PowerofHabit, 
     },
 
-]
+];
 
-export default books;
+
+const categories = [
+    'Architecture',
+    'Art',
+    'Biography & Arts',
+    'Body, Mind & Spirit',
+    'Business & Economics',
+    'Computers',
+    'Cooking',
+    'Crafts & Hobbies',
+    'Drama',
+];
+
+export default {categories, books};
+// export default books;
